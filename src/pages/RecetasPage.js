@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/components/pages/NosotrosPage.css";
-const NosotrosPage = (props) => {
+import "../styles/components/pages/RecetasPage.css";
+const RecetasPage = (props) => {
     return (
         <section className="holder">
         <div className="historia">
@@ -69,4 +69,4 @@ const NosotrosPage = (props) => {
     );
 }
 
-export default NosotrosPage;
+export default RecetasPage;

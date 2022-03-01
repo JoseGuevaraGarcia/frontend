@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/components/pages/NovedadesPage.css";
-const NovedadesPage = (props) => {
+import "../styles/components/pages/GaleriaPage.css";
+const GaleriaPage = (props) => {
     return (
 <main class="holder">
         <div class="row">
@@ -43,4 +43,4 @@ const NovedadesPage = (props) => {
     ) ;
 }
 
-export default NovedadesPage;
+export default GaleriaPage;
