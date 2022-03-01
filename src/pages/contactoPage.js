@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/components/pages/contactoPage.css";
 const contactoPage = (props) => {
     return (
         <main className="holder">
@@ -22,11 +22,11 @@ const contactoPage = (props) => {
                 <label for="">Comentario</label>
                 <textarea id="comentario"></textarea>
             </p>
-            <p class="acciones"><input type="submit" value="Enviar"></input></p>
+            <p className="acciones"><input type="submit" value="Enviar"></input></p>
             </form>
         </div>
 
-        <div class="columna right">
+        <div className="columna right">
             <h2>Otras vias de Contacto</h2>
             <p>Tambien se pueden comunicar con nosotros ....</p>
             <ul>

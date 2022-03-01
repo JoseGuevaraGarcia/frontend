@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/components/pages/NosotrosPage.css";
 const NosotrosPage = (props) => {
     return (
         <section className="holder">
